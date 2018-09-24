@@ -1,0 +1,19 @@
+html, body {
+    margin: 0 auto;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.text{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: calc(100%-600px);
+    float: left;
+}
+
+#mpic{
+    background: url("mariapic.jpg") center/cover;
+    background-color: #fff; 
+    height: 600px;
+    width: 600px;
+    float: right;
+}
