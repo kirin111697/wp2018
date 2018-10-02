@@ -64,38 +64,43 @@ html, body {
     font-style: normal;
 }
 
-.text{
-    z-index: 99;
-    margin-left: 3%;
+#mainP{
+    position: absolute;
+    top: 10%; 
+    height: 90%;
+    width: 93%;
+    transition: top 2s;
+}
+
+#mainP > div.text{
     height: 72%;
     width: 90%;
+    margin-left: 3%;
     float: left;
-    position: relative;
-    top: 40%;
+    position: absolute;
+    z-index: 99;
+    top: 25%;
     opacity: 0;
 }
 
-h1{
+#mainP > div.text > h1{
     font-family: 'Teko', sans-serif;
     z-index: 99;
     font-size: 60px;
-    position: relative;
 }
 
 #mpic{
     background: url("scar2.jpg") center/cover;
     position: absolute;
     right: 0%;    
-    top: 10%;
-    height: 90%;
+    height: 100%;
     width: 0%;
-    max-width: 1500px;
     float: right;
 }
 
 #mpic2{
     background: url("scar_small.png") center/cover;
-    height: 36%;
+    height: 37%;
     width: 0%;
     position: absolute;
     left: 50%;
@@ -112,3 +117,55 @@ h1{
     top: 90%;
     opacity: 0;
 }
+
+#gtsP{
+    height: 90%;
+    width: 100%;
+    margin-left: 3%;
+    position: absolute;
+    top: 10%;
+    display: none;
+    transition: top 2s;
+}
+
+#gtsP > div.text{
+    z-index: 99;
+    height: 50%;
+    width: 40%;
+    float:left;
+    position: absolute;
+    top: 20%;
+    opacity: 0;
+}
+
+#gtspic1{
+    background: url("gts1.jpg")center/cover;
+    height: 82%;
+    width: 0%;
+    position: absolute;
+    right: 0%;
+
+}
+
+#colorbg{
+    background-color: #3967bb;
+    height: 40%;
+    width: 0%;
+    position: absolute;
+    right: 48%;
+    top: 60%;
+}
+
+#gtspic2{
+    background: url("gts2.jpg");
+    height: 50%;
+    width: 0%;
+    position: absolute;
+    right: 53%;
+    top: 50%;
+}
+
+
+
+
+
